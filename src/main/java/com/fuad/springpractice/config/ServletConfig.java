@@ -9,7 +9,7 @@ import org.springframework.web.servlet.config.annotation.ViewResolverRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @EnableWebMvc
-@ComponentScan(basePackages = {"com.com.fuad.springpractice.controllers"})
+@ComponentScan(basePackages = {"com.fuad.springpractice.controllers"})
 public class ServletConfig implements WebMvcConfigurer {
     @Override
     public void configureViewResolvers(ViewResolverRegistry registry) {
